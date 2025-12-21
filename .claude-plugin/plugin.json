@@ -1,0 +1,39 @@
+{
+  "name": "anthropic-skills",
+  "description": "Official Anthropic skills for document processing, presentations, spreadsheets, PDFs, and frontend design",
+  "version": "1.0.0",
+  "author": "Anthropic",
+  "skills_directory": "../skills",
+  "skills": [
+    {
+      "name": "docx",
+      "path": "../skills/docx",
+      "enabled": true,
+      "description": "Document creation, editing, and analysis"
+    },
+    {
+      "name": "pdf",
+      "path": "../skills/pdf",
+      "enabled": true,
+      "description": "PDF manipulation toolkit"
+    },
+    {
+      "name": "pptx",
+      "path": "../skills/pptx",
+      "enabled": true,
+      "description": "Presentation creation and editing"
+    },
+    {
+      "name": "xlsx",
+      "path": "../skills/xlsx",
+      "enabled": true,
+      "description": "Spreadsheet creation and analysis"
+    },
+    {
+      "name": "frontend-design",
+      "path": "../skills/frontend-design",
+      "enabled": true,
+      "description": "Production-grade frontend interface design"
+    }
+  ]
+}
